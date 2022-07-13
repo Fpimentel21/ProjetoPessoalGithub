@@ -1,18 +1,29 @@
 body { 
-    background: #ccc;
-}
+    background: #f7f7f7;
+    font-family: verdana;
+
+} 
 
 .photo { 
     border: 1px solid #505050;
     border-radius: 50%;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 15vh;
+    max-height: 15vh;
 }
 
 #tittle, .subtitle, .post_title {
-    color: blue;
-
+    color: #505050;
 }
+
+.tittle {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a { 
+    color: #505050;
+}
+
 
 .post_title { 
     font-size: 16px;   
@@ -39,6 +50,13 @@ body {
 
 .post_image { 
     margin-bottom: 15px;
-    width: 40%;
-    height: 10%;
+    width: 45vh;
+    height: 50vh;
 }
+
+.contacts_list { 
+    padding-left: 15px;
+    list-style-type: none;
+
+}
+
